@@ -36,21 +36,22 @@
         <hr>
     </header>
 
-    <main>
-        <h1> Super Mairo</h1>
-        <div class="banner">
-        </div>
-        <p> Super Mario é uma série de jogos eletrônicos de plataforma, criada pela Nintendo, baseada e estrelada pelo
-            encanador fictício Mario.</p>
-        <p>Alternativamente chamada de série Super Mario Bros. ou simplesmente série Mario, é a série central da ampla
-            franquia Mario.</p>
-    </main>
+    <section id="secao4" class="secao-temp">
+        <h2 class="secao-titulo">Super Mario World (1991)</h2>
+        <img src="./img/super-mario-world-game-cover-altar-of-gaming.webp" alt="banner_Super_Mario_World">
+        <h3 class="secao-subtitulo">Sinopse: </h3>
+        <p class="secao-descricao">Mario, Luigi e a princesa Toadstool foram tirar férias em Dinosaur Land. Mas, durante
+            as férias, Bowser rapta a amável Princesa! Ele também se apodera de Dinossaur Land, e aprisiona seus
+            habitantes em ovos mágicos, entregando-os aos seus sete filhos que são os Koopalings! Mario e Luigi
+            enfrentam desafios por 7 mundos diferentes, até enfim derrotar mais uma vez o terrível Bowser e salvar a
+            Princesa e os habitantes de Dinosaur Land.</p>
+        <a href="https://www.youtube.com/watch?v=OCEOBlyUdqY" class="secao-botao" target="_blank">Assista ao trailer</a>
+    </section>
 
     <footer>
         <hr>
         <h2 class="secao-titulo">Atividade de Web.</h2>
     </footer>
-
 </body>
 
 </html>

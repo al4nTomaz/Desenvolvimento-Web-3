@@ -36,21 +36,20 @@
         <hr>
     </header>
 
-    <main>
-        <h1> Super Mairo</h1>
-        <div class="banner">
-        </div>
-        <p> Super Mario é uma série de jogos eletrônicos de plataforma, criada pela Nintendo, baseada e estrelada pelo
-            encanador fictício Mario.</p>
-        <p>Alternativamente chamada de série Super Mario Bros. ou simplesmente série Mario, é a série central da ampla
-            franquia Mario.</p>
-    </main>
+    <section id="secao2" class="secao-temp">
+        <h2 class="secao-titulo">Super Mario Bros. 2 (1988)</h2>
+        <img src="./img/Super Mario Bros 2 The Lost Levels Review Banner 02.png" alt="banner_Super_Mario_Bros.2">
+        <h3 class="secao-subtitulo">Sinopse: </h3>
+        <p class="secao-descricao">A história de SMB2 assenta na premissa de que tanto Mário como os outros estão a
+            viver um sonho. Nesse sonho, cabe ao jogador guiar Mário e as restantes personagens pelo reino de Subcon,
+            que está a ser atacado pelo rei sapo, Wart.</p>
+        <a href="https://www.youtube.com/watch?v=jdmgzCi_zWQ" class="secao-botao" target="_blank">Assista ao trailer</a>
+    </section>
 
     <footer>
         <hr>
         <h2 class="secao-titulo">Atividade de Web.</h2>
     </footer>
-
 </body>
 
 </html>

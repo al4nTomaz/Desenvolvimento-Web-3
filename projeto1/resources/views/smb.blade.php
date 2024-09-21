@@ -36,15 +36,16 @@
         <hr>
     </header>
 
-    <main>
-        <h1> Super Mairo</h1>
-        <div class="banner">
-        </div>
-        <p> Super Mario é uma série de jogos eletrônicos de plataforma, criada pela Nintendo, baseada e estrelada pelo
-            encanador fictício Mario.</p>
-        <p>Alternativamente chamada de série Super Mario Bros. ou simplesmente série Mario, é a série central da ampla
-            franquia Mario.</p>
-    </main>
+    <section id="secao1" class="secao-temp">
+        <h2 class="secao-titulo">Super Mario Bros. (1985)</h2>
+        <img src="./img/super-mario-bros-japanese-box-art.webp" alt="banner_Super_Mario_Bros.">
+        <h3 class="secao-subtitulo">Sinopse: </h3>
+        <p class="secao-descricao">Os jogadores controlam Mario, ou seu irmão Luigi no modo multijogador, enquanto
+            viajam pelo Reino Cogumelo para resgatar a Princesa Peach de Bowser. Eles devem percorrer os mundos em uma
+            visão em rolagem lateral, evitando perigos como inimigos e buracos com a ajuda de potencializadores como o
+            Supercogumelo, Flor de Fogo e Superestrela.</p>
+        <a href="https://www.youtube.com/watch?v=bYMVNIb5wTI" class="secao-botao" target="_blank">Assista ao trailer</a>
+    </section>
 
     <footer>
         <hr>
