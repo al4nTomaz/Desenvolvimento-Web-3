@@ -22,6 +22,10 @@ Route::get('/smb', function () {
     return view('smb4');
 });
 
+Route::get('/teste', function () {
+    return view('teste');
+});
+
 Route::get('/', function () {
     return view('home');
 });
