@@ -31,8 +31,11 @@
                 <li>
                     <a href="/smb4">Super Mario World</a>
                 </li>
-                <li>
+                {{-- <li>
                     <a href="/teste">Teste</a>
+                </li> --}}
+                <li>
+                    <a href="/tabuadatematica">Tabuada Temática</a>
                 </li>
             </ul>
         </nav>

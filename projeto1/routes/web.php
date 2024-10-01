@@ -23,7 +23,19 @@ Route::get('/smb', function () {
 });
 
 Route::get('/teste', function () {
-    return view('teste');
+    $produto = "cebola";
+    $valor = 1.50;
+    // return view('teste', ['item'=>$produto, 'preco'=>$valor]);
+    // return view('teste',compact('produto','valor'));
+
+    $clientes = array("João", "Pedro", "Lucas");
+    return view('teste' , compact('clientes'));
+
+});
+
+Route::get('/tabuadatematica', function () {
+    return view('tabuadatematica');
+
 });
 
 Route::get('/', function () {
