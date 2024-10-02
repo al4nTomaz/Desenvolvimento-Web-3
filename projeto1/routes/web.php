@@ -34,7 +34,8 @@ Route::get('/teste', function () {
 });
 
 Route::get('/tabuadatematica', function () {
-    return view('tabuadatematica');
+    $valor = 3;
+    return view('tabuadatematica', compact('valor'));
 
 });
 

@@ -84,10 +84,32 @@ h1 {
     margin-bottom: 20px; */
 }
 
+.titulo-tabuada{
+    padding-top: 40px;
+}
+
+.tabuada{
+    margin: 5px;
+    padding: 0px 10px;
+    border: 2px solid white;
+    border-radius: 30px;
+    display: flex;
+}
+
+.tabuada span{
+    padding: 10px;
+}
+
+.tabuada .img-cogumelo{
+    height: 1%;
+    width: 2%;
+    padding: 4px;
+    margin: 4px 0px;
+}
 
 footer{
-    background-color: coral;
     padding: 10px;
+    background-color: coral;
     justify-content: center;
     bottom: 0;
     position: fixed;
