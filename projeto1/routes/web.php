@@ -1,44 +1,32 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\TesteController;
+use App\Http\Controllers\Lista01Controller;
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
+Route::get('/smb', [TesteController::class, 'smb']);
 
-Route::get('/smb', function () {
-    return view('smb');
-})
+Route::get('/smb2', [TesteController::class, 'smb2']);
 
-;Route::get('/smb2', function () {
-    return view('smb2');
-})
+Route::get('/smb3', [TesteController::class, 'smb3']);
 
-;Route::get('/smb3', function () {
-    return view('smb3');
-})
+Route::get('/smb4', [TesteController::class, 'smb4']);
 
-;Route::get('/smb4', function () {
-    return view('smb4');
-});
+Route::get('/teste', [TesteController::class, 'testar']);
 
-Route::get('/teste', function () {
-    $produto = "cebola";
-    $valor = 1.50;
-    // return view('teste', ['item'=>$produto, 'preco'=>$valor]);
-    // return view('teste',compact('produto','valor'));
+Route::get('/tabuadatematica', [TesteController::class, 'tabuadatematica']);
 
-    $clientes = array("João", "Pedro", "Lucas");
-    return view('teste' , compact('clientes'));
+Route::get('/', [TesteController::class, 'home']);
 
-});
 
-Route::get('/tabuadatematica', function () {
-    $valor = 3;
-    return view('tabuadatematica', compact('valor'));
-
-});
-
-Route::get('/', function () {
-    return view('home');
-});
+Route::get('/ex01', [Lista01Controller::class, 'ex01']);
+Route::get('/ex02', [Lista01Controller::class, 'ex02']);
+Route::get('/ex03', [Lista01Controller::class, 'ex03']);
+Route::get('/ex04', [Lista01Controller::class, 'ex04']);
+Route::get('/ex05', [Lista01Controller::class, 'ex05']);
+Route::get('/ex06', [Lista01Controller::class, 'ex06']);
+Route::get('/ex07', [Lista01Controller::class, 'ex07']);
+Route::get('/ex08', [Lista01Controller::class, 'ex08']);
+Route::get('/ex09', [Lista01Controller::class, 'ex09']);
+Route::get('/ex10', [Lista01Controller::class, 'ex10']);
+Route::get('/ex11', [Lista01Controller::class, 'ex11']);

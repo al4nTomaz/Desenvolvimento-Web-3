@@ -74,12 +74,12 @@
         @endwhile --}}
 
         {{-- <h1> {{ $item }} </h1>
-        <h3> Está custando : R$ {{ $preco }} </h3>
+        <h3> Está custando : R$ {{ $preco }} </h3> --}}
 
         <h1> {{ $produto }} </h1>
-        <h3> Está custando : R$ {{ $valor }} </h3> --}}
+        <h3> Está custando : R$ {{ $valor }} </h3>
 
-        @forelse ($clientes as $cliente)
+        {{-- @forelse ($clientes as $cliente)
             {{ $loop->index }}
             <span> - </span>
             {{ $cliente }}
@@ -87,7 +87,7 @@
 
         @empty
             <p> Não existe usuário cadastrado </p>
-        @endforelse
+        @endforelse --}}
 
     </body>
 

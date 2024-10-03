@@ -44,6 +44,7 @@
     </header>
 
     @yield('content')
+    @yield('content2') 
 
     <footer>
         <hr>

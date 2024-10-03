@@ -7,7 +7,7 @@
     padding: 0;
 }
 
-body{
+body {
     background-color: linen;
     text-align: center;
     padding: 10px;
@@ -43,17 +43,17 @@ h1 {
 
 .banner {
     margin: 10px;
-    background-image: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiVC7vg9iFcqfl344ixbspK0iG2e5FWu1O2VpdHZf5t1j15ohO_FnuraPdKnYj4mjqjHnkkBl2Me5aNqqYbkFh_yZ2LRoKLk7fv42gSFoLihEk01nk7iNH_K2bWlIIJzFZ8TbmAg7cbrEpOvqXFHqduzTItfU7aWmeQmwqV96YgyChwdUlzFQaWzjhvRhU1/s1800/super-mario-bros-wonder.jpg"); 
+    background-image: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiVC7vg9iFcqfl344ixbspK0iG2e5FWu1O2VpdHZf5t1j15ohO_FnuraPdKnYj4mjqjHnkkBl2Me5aNqqYbkFh_yZ2LRoKLk7fv42gSFoLihEk01nk7iNH_K2bWlIIJzFZ8TbmAg7cbrEpOvqXFHqduzTItfU7aWmeQmwqV96YgyChwdUlzFQaWzjhvRhU1/s1800/super-mario-bros-wonder.jpg");
     background-repeat: no-repeat;
     background-position: center;
     height: 195px;
     background-size: cover;
-    border: 2px solid brown; 
+    border: 2px solid brown;
     border-radius: 30px;
     text-align: center;
 }
 
-.secao-temp{
+.secao-temp {
     padding: 10px;
     margin: 50px;
     border: 8px solid white;
@@ -63,7 +63,7 @@ h1 {
     text-align: left;
 }
 
-.secao-temp img{
+.secao-temp img {
     padding-top: 10px;
 }
 
@@ -71,24 +71,24 @@ h1 {
     padding-top: 10px;
 }
 
-.secao-descricao{
+.secao-descricao {
     margin: 20px 0px;
     /* margin-top: 20px;
     margin-bottom: 20px; */
 }
 
-.secao-botao{
+.secao-botao {
     color: coral;
     margin: 10px 0px;
     /* margin-top: 20px;
     margin-bottom: 20px; */
 }
 
-.titulo-tabuada{
+.titulo-tabuada {
     padding-top: 40px;
 }
 
-.tabuada{
+.tabuada {
     margin: 5px;
     padding: 0px 10px;
     border: 2px solid white;
@@ -96,18 +96,45 @@ h1 {
     display: flex;
 }
 
-.tabuada span{
+
+.tabuada span {
     padding: 10px;
 }
 
-.tabuada .img-cogumelo{
+.tabuada .img-cogumelo {
     height: 1%;
     width: 2%;
     padding: 4px;
     margin: 4px 0px;
 }
 
-footer{
+.menu {
+    margin: 5px;
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.menu-item {
+    border: 2px solid white;
+    border-radius: 30px;
+    padding: 10px;
+    
+}
+
+.menu .menu-item a{
+    text-decoration: none;
+    color: coral;
+}
+
+
+.menu .img-cogumelo {
+    height: 1%;
+    width: 2%;
+}
+
+footer {
     padding: 10px;
     background-color: coral;
     justify-content: center;
