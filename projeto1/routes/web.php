@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\TesteController;
+use App\Http\Controllers\Cliente;
 use App\Http\Controllers\Lista01Controller;
 
 Route::get('/smb', [TesteController::class, 'smb']);
@@ -17,6 +18,11 @@ Route::get('/teste', [TesteController::class, 'testar']);
 Route::get('/tabuadatematica', [TesteController::class, 'tabuadatematica']);
 
 Route::get('/', [TesteController::class, 'home']);
+
+
+Route::get('/cadastrarCliente', [Cliente::class, 'create']);
+Route::post('/cadastrarCliente', [Cliente::class, 'store']);
+
 
 
 Route::get('/ex01', [Lista01Controller::class, 'ex01']);
