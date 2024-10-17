@@ -13,12 +13,7 @@ class Cliente extends Controller
     }
     
     public function store(Request $request){
-        $status = DB::table('clientes')->insert([
-            'nome'=>$request->input('nome'),
-            'cpf'=>$request->input('cpf'),
-            'telefone'=>$request->input('telefone'),
-            'email'=>$request->input('email'),
-        ]);
+        $status = ClienteModel::salvar($request);
 
         if ($status) {
             return redirect()->back()->with('mensagem', 'Cliente cadastrado com sucesso!');
@@ -26,4 +21,6 @@ class Cliente extends Controller
             return redirect()->back()->with('mensagem', 'Erro ao cadastrar cliente. tente novamente.');
         }
     }
+
+    // public static listar
 }

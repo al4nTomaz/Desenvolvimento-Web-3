@@ -22,6 +22,7 @@ Route::get('/', [TesteController::class, 'home']);
 
 Route::get('/cadastrarCliente', [Cliente::class, 'create']);
 Route::post('/cadastrarCliente', [Cliente::class, 'store']);
+Route::get('/listarCliente', [Cliente::class, 'index']);
 
 
 

@@ -35,6 +35,9 @@
                 <li>
                     <a href="/cadastrarCliente">Cadastrar Cliente</a>
                 </li>
+                <li>
+                    <a href="/listarCliente">Listar Cliente</a>
+                </li>
                 {{-- <li>
                     <a href="/teste">Teste</a>
                 </li> --}}
