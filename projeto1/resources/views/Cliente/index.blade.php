@@ -20,11 +20,11 @@
             <td>{{ $cliente->telefone }}</td>
             <td>{{ $cliente->email }}</td>
             <td>
-                <form action="" method="post" onsubmit="return confirm('Está certo disso?');">
+                <form action="/deletarCliente/{{ $cliente->id }}" method="post" onsubmit="return confirm('Está certo disso?');">
                     @csrf
 
                     @method('DELETE')
-                    <input type="submit" name="Deletar">
+                    <input type="submit" name="Deletar" value="Deletar">
                 </form>
             </td>
             <td>

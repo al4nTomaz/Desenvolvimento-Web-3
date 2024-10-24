@@ -12,7 +12,7 @@ class ClienteModel extends Model
 {
     use HasFactory;
 
-    public function salvar(Request $request){
+    public static function salvar(Request $request){
         $status = DB::table('clientes')->insert([
             'nome'=>$request->input('nome'),
             'cpf'=>$request->input('cpf'),
@@ -21,10 +21,15 @@ class ClienteModel extends Model
         ]);
 
         return $status;
-        // if ($status) {
-        //     return redirect()->back()->with('mensagem', 'Cliente cadastrado com sucesso!');
-        // }else {
-        //     return redirect()->back()->with('mensagem', 'Erro ao cadastrar cliente. tente novamente.');
-        // }
+    }
+
+    public static function listar(){
+        $clientes = DB::table('clientes')->get();
+        return $clientes;
+    }
+
+    public static function deletar($id){
+        $status = DB::table('clientes')->delete($id);
+        return $status;
     }
 }
